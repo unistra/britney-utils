@@ -13,7 +13,7 @@ with open('requirements.txt') as requirements:
 
 setup(
     name='britney-utils',
-    version='0.1',
+    version='0.1.1',
     author='Arnaud Grausem',
     author_email='arnaud.grausem@gmail.com',
     maintainer='Arnaud Grausem',
