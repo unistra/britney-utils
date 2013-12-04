@@ -1,0 +1,6 @@
+[run]
+source = 
+    britney_utils
+
+[report]
+omit = */tests/*
