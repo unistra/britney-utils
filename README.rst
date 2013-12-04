@@ -30,7 +30,9 @@ You can easily create a client with the **get_client** function. It will create 
 
     import britney_utils
 
-    client = britney_utils.get_client('my_client', '/path/to/spore/description.json', base_url='http://my-rest-api.org/v1/')
+    client = britney_utils.get_client('my_client',
+                                      '/path/to/spore/description.json',
+                                      base_url='http://my-rest-api.org/v1/')
 
 
 ... to reset an instance
@@ -38,7 +40,9 @@ You can easily create a client with the **get_client** function. It will create 
 
 If an instance is already created with a name you gave in first place, you can easily reset and rebuild it. In this example, we except that the **my_client** SPORE client already exist ::
 
-    client = britney_utils.get_client('my_client', '/path/to/spore/description.json', reset=True)
+    client = britney_utils.get_client('my_client',
+                                      '/path/to/spore/description.json',
+                                      reset=True)
 
 
 A new instance is created with the **my_client** name and saved
@@ -57,4 +61,6 @@ Creating a rich client with all middlewares needed activated is useful. You can 
         (auth.Basic, {'username': 'toto', 'password': 'xxxxxx'}
     )
 
-    client = britney_utils.get_client('my_client', '/path/to/spore/description.json', middlewares=middlewares)
+    client = britney_utils.get_client('my_client',
+                                      '/path/to/spore/description.json',
+                                      middlewares=middlewares)
