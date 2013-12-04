@@ -7,6 +7,10 @@ from setuptools import find_packages
 with open('README.rst') as readme:
     long_description = readme.read()
 
+with open('requirements.txt') as requirements:
+    lines = requirements.readlines()
+    libraries = [lib for lib in lines if not lib.startswith('-')]
+
 setup(
     name='britney-utils',
     version='0.1',
