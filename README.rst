@@ -58,7 +58,7 @@ Creating a rich client with all middlewares needed activated is useful. You can 
 
     middlewares = (
         (format.Json, {'predicate': lambda env: env['format'] == 'json'}),
-        (auth.Basic, {'username': 'toto', 'password': 'xxxxxx'}
+        (auth.Basic, {'username': 'toto', 'password': 'xxxxxx'})
     )
 
     client = britney_utils.get_client('my_client',
