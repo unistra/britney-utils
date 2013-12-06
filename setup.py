@@ -22,10 +22,9 @@ setup(
     license='PSF',
     description='Utilities for the Python SPORE client called Britney',
     long_description=long_description,
-    packages=find_packages(),
+    py_modules=['britney_utils'],
     download_url='http://pypi.python.org/pypi/britney-utils',
     keywords=['SPORE', 'REST Api', 'client', 'britney'],
-    entry_points={},
     classifiers = (
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
