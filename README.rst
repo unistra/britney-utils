@@ -11,6 +11,10 @@ Britney-utils comes with some utilities to create and manage clients build by Br
 .. image:: https://coveralls.io/repos/unistra/britney-utils/badge.png
     :target: https://coveralls.io/r/unistra/britney-utils
 
+.. image:: https://landscape.io/github/unistra/britney-utils/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/unistra/britney-utils/master
+   :alt: Code Health
+
 Install
 =======
 
